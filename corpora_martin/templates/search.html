@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+    <title>Поиск</title>
+    <form action="my_opros.html" target="_blank">
+        <br>
+   <button class="lit">Вернуться на главную страницу</button>
+  </form>
+</head>
+<body>
+
+    	<h1><font color="#191970"  face="Luminari, fantasy" >
+		Результаты запроса
+	</font></h1>
+
+    <table>
+        {% for res in result %}
+        <tr><td><i>{{res[0]}}</i></td><td>{{res[1][0]}}<b>{{res[1][1]}}</b>{{res[1][2]}}</td></tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
