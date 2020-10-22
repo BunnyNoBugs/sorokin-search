@@ -53,13 +53,11 @@ def my_form_post():
 
     # выдает промежуток вокруг слова, если задать индекс
     def text_with_window(text: tuple, i: int, j: int, window=10):
-        result = ""
         if window <= len(text[j + 1:]):
             end = j + 1 + window
         else:
             end = len(text)
         if i >= window:
-            result += "..."
             beg = i - window
         else:
             beg = 0
