@@ -22,3 +22,6 @@
 * :bird: Евгений Орлов - создание программы поиска, парсинг
 
 * Тестирование и презентация (как и многое прочее) выполнялись общими усилиями 
+
+
+![Alt-текст](https://sun9-7.userapi.com/reRLRElPC2GPV2faqN7stUTFZv4DbfGKOWxOpQ/QKR9OpCSmVA.jpg)
