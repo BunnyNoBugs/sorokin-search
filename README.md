@@ -7,4 +7,4 @@
 
 :ok_woman: morph_parse.ipynb - парсинг текстов при помощи MyStem
 
-:dolphin: 
+:dolphin:  data_analysis-2.ipynb  - анализ данных
