@@ -2,6 +2,7 @@
 # Добро пожаловать в корпус В. Г. Сорокина!
 
 * #### ссылка на корпус: http://bunnynobugs.pythonanywhere.com 
+* #### ссылка на презентацию: https://docs.google.com/presentation/d/1H7rkn4-NcPZsHFIjb4RcC7kM3at2HEjg-cuSeeEMBDE/edit?usp=sharing
 
 :blossom: corpora_martin - веб-интерфейс для корпуса 
 
